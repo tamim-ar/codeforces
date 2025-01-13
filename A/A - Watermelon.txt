@@ -1,16 +1,15 @@
-import java.util.*; // Import the utility package for Scanner
+import java.util.*; 
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // Create a Scanner object for user input
+        Scanner sc = new Scanner(System.in); 
 
-        int w = sc.nextInt(); // Read an integer input from the user
+        int w = sc.nextInt(); 
 
-        // Check if the input weight is greater than 2 and an even number
         if (w > 2 && w % 2 == 0) {
-            System.out.println("YES"); // Print "YES" if the conditions are met
+            System.out.println("YES"); 
         } else {
-            System.out.println("NO"); // Print "NO" otherwise
+            System.out.println("NO"); 
         }
     }
 }
