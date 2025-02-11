@@ -1,5 +1,4 @@
-m, n = map(int, input().split())
+import sys
+M, N = map(int, sys.stdin.read().split())
+print((M * N) // 2)
 
-temp = m*n/2
-
-print(int(temp))
