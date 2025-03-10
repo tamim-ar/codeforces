@@ -1,12 +1,13 @@
-num = int(input())
-count = 0
+def main():
+    x = 0
+    n = int(input())
+    for _ in range(n):
+        operation = input().strip()
+        if operation == "++X" or operation == "X++":
+            x += 1
+        elif operation == "--X" or operation == "X--":
+            x -= 1
+    print(x)
 
-for i in range(num):
-    x = input()
-
-    if x.count("++"):
-        count = int(count) + 1
-    elif x.count("--"):
-        count = int(count) - 1
-
-print(count)
+if __name__ == "__main__":
+    main()

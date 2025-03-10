@@ -1,15 +1,11 @@
-n, k = map(int, input().split())
+def main():
+    n, k = map(int, input().split())
+    a = list(map(int, input().split()))
+    
+    threshold = a[k-1]
+    count = sum(1 for score in a if score >= threshold and score > 0)
+    
+    print(count)
 
-count = 0
-
-nums = list(map(int, input().split()))
-
-if len(nums) > n:
-    nums = nums[:n]
-
-for i in nums:
-
-    if i >= nums[k - 1] and i > 0:
-        count += 1
-
-print(count)
+if __name__ == "__main__":
+    main()

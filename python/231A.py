@@ -1,13 +1,11 @@
-num = int(input())
-count = 0
-
-for i in range(num):
-    x = input().split(" ")
-    a, b, c = int(x[0]), int(x[1]), int(x[2])
-    if a + b + c >= 2:
-        count = count + 1
-
-if count >= 2:
+def main():
+    n = int(input())
+    count = 0
+    for _ in range(n):
+        a, b, c = map(int, input().split())
+        if a + b + c >= 2:
+            count += 1
     print(count)
-else:
-    print(count)
+
+if __name__ == "__main__":
+    main()

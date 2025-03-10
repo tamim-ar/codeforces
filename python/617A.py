@@ -1,9 +1,6 @@
-import math
+def main():
+    x = int(input())
+    print((x + 4) // 5)
 
-n = int(input())
-res = n // 5
-
-if n % 5 != 0:
-    res += 1
-
-print(res)
+if __name__ == "__main__":
+    main()
