@@ -28,7 +28,18 @@
 ## 👨‍💻 Author
 **Tamim Ahasan Rijon**  
 📧 [tamimahasan.ar@gmail.com](mailto:tamimahasan.ar@gmail.com)  
-🌐 [Portfolio](https://tamim-ar.netlify.app/)
+🌐 [Portfolio](https://tamim-ar.netlify.app/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/tamim-ar/) • [GitHub](https://github.com/tamim-ar) • [X/Twitter](https://x.com/tamim__ahasan)  
+📷 [Instagram](https://www.instagram.com/tamim__ahasan/) • [Facebook](https://www.facebook.com/hellotamim/)
+
+## 🤝 Contributing
+Contributions are welcome! 🚀  
+To add or improve solutions:
+1. **Fork** this repository  
+2. Create a feature branch → `git checkout -b feature/your-feature`  
+3. Commit changes → `git commit -m 'Add feature'`  
+4. Push to your branch → `git push origin feature/your-feature`  
+5. Open a **Pull Request** 🎯
 
 ## 📜 License
 Licensed under the [MIT License](./LICENSE).
