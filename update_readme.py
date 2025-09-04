@@ -1,7 +1,6 @@
 import os
 import re
 
-# ===== CONFIG =====
 SOLUTIONS_FOLDER = "solutions"
 
 BADGE_STYLE = "flat-square"
@@ -27,12 +26,11 @@ LANGUAGE_EXTENSIONS = {
     "C#": [".cs"],
     "PHP": [".php"]
 }
-# ==================
 
 def count_solutions():
     if not os.path.exists(SOLUTIONS_FOLDER):
         return 0
-    # Count only directories in the solutions folder
+    
     folders = [f for f in os.listdir(SOLUTIONS_FOLDER) if os.path.isdir(os.path.join(SOLUTIONS_FOLDER, f))]
     return len(folders)
 
